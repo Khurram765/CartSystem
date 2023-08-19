@@ -1,0 +1,49 @@
+.alertbox{
+    position: fixed;
+    height: 300px;
+    width: 400px;
+    background-color: rgb(245, 83, 83);
+    left: 35%;
+    top: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+.alertheading{
+    color: white;
+    text-align: center;
+}
+
+.overlay{
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    background-color: black;
+    opacity: 0.5;
+    display: none;
+}
+
+.visible{
+    display: flex;
+}
+
+a{
+    color: white !important;
+}
+
+.loginerror{
+    color: red;
+}
+
+.card-text{
+    font-size: 24px !important;
+}
+
+
+.cartimage{
+    height: 100px !important;
+    width: 100px !important;
+}
